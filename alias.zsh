@@ -14,3 +14,5 @@ alias fzf='fzf -m --reverse'
 # docker
 alias d='docker'
 alias dc='docker-compose'
+# Rust
+alias c='cargo'
