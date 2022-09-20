@@ -19,7 +19,9 @@
 [color]
 	ui = true
 [core]
-        excludesfile = ~/.gitignore_global
-        editor="emacs"
+    excludesfile = ~/.gitignore_global
+    editor="emacs"
+# [includeIf "gitdir:~/workapsce/"]
+# 	path = ~/.gitconfig_private
 [pager]
-        branch = cat
+    branch = cat
