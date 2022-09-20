@@ -1,0 +1,25 @@
+
+[user]
+	name = Takayuki Nakata
+	email = f.seasons017@gmail.com
+[alias]
+	s = status
+	sl = stash list
+	ss = stash save
+	sp = stash pop
+	b = branch
+	bm = branch --merged
+	bd = branch -d
+	a = add -A
+	c = commit -m
+	ch = checkout
+	l = log -p --stat --abbrev-commit --decorate --topo-order
+	lo = log --oneline --graph --decorate
+	d = diff
+[color]
+	ui = true
+[core]
+        excludesfile = ~/.gitignore_global
+        editor="emacs"
+[pager]
+        branch = cat
