@@ -24,4 +24,4 @@
 # [includeIf "gitdir:~/workapsce/"]
 # 	path = ~/.gitconfig_private
 [pager]
-    branch = cat
+    branch = less
