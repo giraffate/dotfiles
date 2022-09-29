@@ -16,3 +16,5 @@ alias d='docker'
 alias dc='docker-compose'
 # Rust
 alias c='cargo'
+# k8s
+alias k='kubectl'
