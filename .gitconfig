@@ -25,3 +25,5 @@
 # 	path = ~/.gitconfig_private
 [pager]
     branch = less
+[init]
+	defaultBranch = main
