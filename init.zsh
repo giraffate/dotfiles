@@ -9,6 +9,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 # NodeJS
 export PATH="$HOME/.nodebrew/current/bin:$PATH"
+# Go
+export PATH="/usr/local/go/bin:$PATH"
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
