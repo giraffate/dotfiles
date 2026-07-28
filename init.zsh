@@ -19,7 +19,8 @@ setopt hist_ignore_dups
 setopt share_history
 
 fpath+=~/.zfunc
-autoload -U compinit; compinit
+# https://github.com/zimfw/zimfw/wiki/Troubleshooting#completion-is-not-working
+# autoload -U compinit; compinit
 autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
 add-zsh-hook chpwd chpwd_recent_dirs
 zstyle ':chpwd:*' recent-dirs-max 1000
